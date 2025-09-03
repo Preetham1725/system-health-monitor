@@ -1,6 +1,6 @@
-# Now let's create the configuration file and requirements.txt
+# System Health Monitor
 
-config_yaml = System Health Monitor Configuration
+
 ### Me: Preetham L
 
 # Monitoring thresholds (percentage)
@@ -29,7 +29,7 @@ logging:
 '''
 
 requirements_txt = System Health Monitor Dependencies
-
+config_yaml = System Health Monitor Configuration
 
 # Core system monitoring library
 psutil==5.9.5
