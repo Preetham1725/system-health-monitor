@@ -1,0 +1,23 @@
+# System Health Monitor Dependencies
+# Author: Preetham L
+
+# Core system monitoring library
+psutil==5.9.5
+
+# YAML configuration file parsing
+PyYAML==6.0.1
+
+# Email libraries (built-in with Python)
+# smtplib - built-in
+# email - built-in
+
+# Additional useful libraries for enhanced functionality
+requests>=2.31.0          # For HTTP requests (future web hooks)
+colorama>=0.4.6           # For colored console output
+tabulate>=0.9.0           # For formatted table output
+
+# Development and testing dependencies (optional)
+pytest>=7.4.0             # For unit testing
+pytest-cov>=4.1.0         # For test coverage
+flake8>=6.0.0             # For code linting
+black>=23.7.0             # For code formatting

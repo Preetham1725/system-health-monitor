@@ -1,0 +1,26 @@
+# System Health Monitor Configuration
+# Author: Preetham L
+
+# Monitoring thresholds (percentage)
+thresholds:
+  cpu: 80        # Alert when CPU usage exceeds 80%
+  memory: 85     # Alert when memory usage exceeds 85%
+  disk: 90       # Alert when disk usage exceeds 90%
+
+# Check interval in seconds
+check_interval: 60
+
+# Email alert configuration
+email:
+  enabled: false                      # Set to true to enable email alerts
+  smtp_server: "smtp.gmail.com"       # SMTP server
+  port: 587                           # SMTP port
+  from: "system-monitor@yourdomain.com"
+  to: "admin@yourdomain.com"
+  username: "your-email@gmail.com"    # Your email username
+  password: "your-app-password"       # Use app-specific password for Gmail
+
+# Logging configuration
+logging:
+  level: "INFO"                       # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  file: "system_monitor.log"          # Log file name
